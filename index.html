@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery Before/After Plugin Demo</title>
+<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="jquery-ui-1.8.13.custom.min.js"></script>
+<script type="text/javascript" src="jquery.beforeafter-1.4.js"></script>
+<script type="text/javascript" src="jquery.beforeafter-1.4.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	$('#container').beforeAfter({imagePath:'images/'});
+});
+</script>
+ <style> html{display : none ; } </style>
+ <script>
+    if( self == top ) {
+        document.documentElement.style.display = 'block' ; 
+    } else {
+        top.location = self.location ; 
+    }
+ </script>
+
+
+<style type="text/css">
+body {
+	background: #ccc;
+}
+#content {
+	margin:0 auto;
+	width:755px;
+}
+#container + div.balinks {
+    /* margin-left: 200px; */
+}
+</style>
+
+</head>
+
+<body>
+<div id="container" style="text-align: center; margin: auto">
+	<div><img src="images/after.png" width="1196" height="2306" alt="after"/></div>
+	<div><img src="images/before.png" width="1196" height="2306" alt="before"/></div>
+</div>
+
+
+</body>
+</html>
