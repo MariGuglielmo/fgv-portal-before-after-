@@ -4,10 +4,8 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>jQuery Before/After Plugin Demo</title>
+<title>FGV Ensino Médio Portal Redesign | Mariana Guglielmo</title>
 <script type="text/javascript" src="jquery-1.6.1.min.js"></script>
-<script type="text/javascript" src="jquery-ui-1.8.13.custom.min.js"></script>
-<script type="text/javascript" src="jquery.beforeafter-1.4.js"></script>
 <script type="text/javascript" src="jquery.beforeafter-1.4.min.js"></script>
 
 <script type="text/javascript">
@@ -15,7 +13,28 @@ $(function(){
 	$('#container').beforeAfter({imagePath:'images/'});
 });
 </script>
- <style> html{display : none ; } </style>
+ <style> 
+	 .project-intro {
+    max-width: 1196px;
+    margin: 28px auto 20px auto;
+    padding: 20px 24px;
+    box-sizing: border-box;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.project-intro h1 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 28px;
+}
+
+.project-intro p {
+    margin: 6px 0;
+    font-size: 16px;
+}
+	 html{display : none ; } </style>
  <script>
     if( self == top ) {
         document.documentElement.style.display = 'block' ; 
@@ -29,10 +48,6 @@ $(function(){
 body {
 	background: #ccc;
 }
-#content {
-	margin:0 auto;
-	width:755px;
-}
 #container + div.balinks {
     /* margin-left: 200px; */
 }
@@ -41,6 +56,18 @@ body {
 </head>
 
 <body>
+	<div class="project-intro">
+  <h1>FGV Ensino Médio Portal Redesign</h1>
+  <p><strong>Project lead: Mariana Guglielmo</strong></p>
+  <p>
+    Before-and-after view of the redesign of FGV Ensino Médio, a national
+    educational platform with more than 120,000 registered users. I coordinated
+    requirements gathering, information architecture, the development of distinct
+    user experiences for students, teachers, and schools, testing, and final
+    functional approval in collaboration with FGV's IT team and an external
+    design firm.
+  </p>
+</div>
 <div id="container" style="text-align: center; margin: auto">
 	<div><img src="images/after.png" width="1196" height="2306" alt="after"/></div>
 	<div><img src="images/before.png" width="1196" height="2306" alt="before"/></div>
